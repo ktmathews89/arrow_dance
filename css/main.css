@@ -1,0 +1,54 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #ffffff;
+    background-color: #2A2D34;
+    padding: 10rem 10rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.instruction {
+    font-family: 'Rationale';
+}
+
+.instruction h1 {
+    font-size: 4rem;
+}
+
+.instruction p {
+    font-size: 1.8rem;
+}
+
+.key-list {
+    width: 30rem;
+    height: 40rem;
+    padding: 2rem;
+    border-left: 3px solid #FFFFFF;
+    overflow-y: scroll;
+    font-family: 'Montserrat';
+    font-size: 2.2rem;
+}
+.key {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.key[data-arrow="up"] {
+    color: #009DDC;
+}
+.key[data-arrow="down"] {
+    color: #F26430;
+}
+.key[data-arrow="right"] {
+    color: #6761A8;
+}
+.key[data-arrow="left"] {
+    color: #009B72;
+}
